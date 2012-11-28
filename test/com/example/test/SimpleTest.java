@@ -36,7 +36,7 @@ public class SimpleTest {
   @Test
   public void sel(){
 	  WebDriver wd = new FirefoxDriver();
-	  wd.get("http://www.flipkart.com");
+	  wd.get("www.flipkart.com");
   }
 	
   @AfterMethod
